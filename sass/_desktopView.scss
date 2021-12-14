@@ -1,0 +1,264 @@
+@media (min-width: 769px) {
+    body {
+      // max-width: 1024px;
+      margin: 70px 150px 0 150px;
+      // box-sizing: border-box;
+
+    }
+    .topnav {
+      width: 1700px;
+      max-height: 100px;
+      .logo {
+        width: 150px;
+      }
+      .myLinks {
+        visibility: visible;
+        background-color: $white;
+        margin: -60px 0 0 180px;
+        a {
+          color: $softGrey;
+          margin: 0px 0px 0px 0px;
+          display: inline;
+          font-size: 20px;
+          margin: 0 0;
+          border-radius: 0;
+          &:hover {
+            background-color: $white;
+            color: black;
+          }
+          cursor: pointer;
+        }
+        :nth-child(5) {
+          margin-left: 830px;
+        }
+        :nth-child(6) {
+          background-color: $buttons;
+          color: $white;
+          text-decoration: none;
+          text-align: center;
+          margin: 16px 45px;
+          border-radius: 25px;
+          font-weight: bold;
+          &:hover{
+            background-color: $buttons2;
+            color: $white;
+          }
+        }
+        
+        .lineBreak {
+          display: none;
+        }
+      }
+      .icon{
+        display: none;
+      }
+      height: 20px;  
+    }
+    
+  
+    .section-2 {
+      width: 1755px;
+      overflow-x: hidden;
+      margin: 0px 0 250px 0;
+      padding-top: 300px;
+      text-align: start;
+      .ill-working {
+        position: relative;
+        width: 1000px;
+        margin: -570px 1px 0 890px;
+      }
+      .s2-head {
+        text-align: start;
+        color: rgba(0, 0, 0, 0.733);
+        font-size: 104px;
+        line-height: 110px;
+        width: 1000px;
+      }
+      .s2-pargraph {
+        text-align: start;
+        letter-spacing: 1px;
+        width: 620px;
+        font-size: 26px;
+        font-weight: 420;
+        line-height: 40px;
+      }
+      .s2-button {
+        width: 230px;
+        margin-left: 10px;
+      }
+    }
+  
+    .section-3 {
+      background-image: url("../assets/images/bg-shorten-desktop.svg");
+      width: 1575px;
+      height: 200px;
+      background-position: center;
+      background-size: 100%;
+      
+      .s3-input {
+        &[type="text"] {
+          display: inline;
+          margin: 60px 0px 18px 70px;
+          border-radius: 9px;
+          padding: 30px 60px;
+          width: 1050px;
+          font-size: 22px;
+        }
+  
+        &[type="submit"] {
+          @include secondButton();
+          padding: 26px 60px;
+          font-weight: 900;
+          font-size: 24px;
+          margin-left: 20px;
+        }
+      }
+      .warning {
+        display: none;
+        color: $softPink;
+        font-size: 20px;
+        margin-left: 80px;
+        font-style: italic;
+        transition: all 0.7s 0s ease;
+      }
+    }
+    .section-4 {
+      margin: 218px 0px 0px -155px;
+      width: 1910px;
+      .s4-head {
+        font-size: 50px;
+      }
+      .s4-pargraph {
+        margin-left: 620px;
+        width: 650px;
+        font-weight: 500;
+        color: $whiteGrey;
+      }
+      .c-card {
+        display: block;
+        width: 1535px;
+        margin: 10px 5px 20px 160px;
+        padding: 20px;
+        .LB {
+          display: none;
+        }
+        h3 {
+          display: inline-block;
+          font-size: 27px;
+        }
+        h4 {
+          display: inline-block;
+          margin-left: 595px;
+          font-size: 27px;
+        }
+        button {
+          width: 170px;
+          padding: 15px 0px;
+        }
+      }
+  
+      .card {
+        display: inline-block;
+        position: relative;
+        text-align: start;
+        width: 450px;
+        height: 300px;
+        .cardHead {
+          padding-left: 40px;
+        }
+        .cardPargraph {
+          text-align: start;
+          font-size: 16px;
+          margin-left: 42px;
+          line-height: 23px;
+          margin-top: -10px;
+          letter-spacing: 1.2px;
+        }
+  
+        .circle {
+          margin-left: 13%;
+        }
+      }
+      .card1 {
+        margin: 120px 30px -100px -984px;
+      }
+      .vL1 {
+        height: 10px;
+        border-left: 60px solid $buttons;
+        margin: -60px 0px -100px 675px;
+      }
+      .card2 {
+        margin: -30px 30px -100px 35px;
+      }
+      .vL2 {
+        height: 10px;
+        border-left: 60px solid $buttons;
+        margin: -100px 0px -100px 1180px;
+      }
+      .card3 {
+        margin: 10px 30px -100px 1050px;
+      }
+    }
+  
+    .section-5 {
+      background-image: url("../assets/images/bg-boost-desktop.svg");
+      background-size: 100%;
+      width: 1915px;
+      margin-left: -160px;
+      .s5-head {
+        font-size: 50px;
+      }
+      .s5-button {
+        width: 287px;
+        margin: 0 0 80px 800px;
+      }
+    }
+  
+    footer {
+      width: 1915px;
+      margin-left: -160px;
+      text-align: start;
+      height: 400px;
+      position: relative;
+      background-color: $black;
+      .f-head {
+        position: absolute;
+        top: 90px;
+        left: 200px;
+        font-size: 40px;
+        width: 10px;
+        font-weight: 500;
+      }
+      .f-links {
+        display: inline-block;
+        margin: 100px -450px 0px 600px;
+        text-align: start;
+        h4 {
+          margin: 50px 0 10px 8px;
+          font-size: 20px;
+          padding: 0;
+        }
+        a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 16px;
+          color: $softGrey;
+          &:hover{
+            color: $buttons2;
+          }
+        }
+      }
+      img:nth-of-type(1) {
+        margin-left: 800px;
+      }
+      .socialLogos {
+        padding: 20px;
+        cursor: pointer;
+        &:hover{
+          filter: invert(9%) sepia(90%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+        }
+      }
+    }
+  }
+  

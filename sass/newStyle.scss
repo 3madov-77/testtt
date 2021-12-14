@@ -1,0 +1,67 @@
+@import "_reset";
+@import "_variables";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+
+body {
+    width: 100%;
+    font-family: "Roboto";
+}
+
+.topnav{
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    // justify-content: space-between;
+    margin: 35px;
+    // max-width: 100%;
+    .topM{
+        // width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .lM{
+        .myLinks {
+            // display: none;
+            align-items: center;
+            background-color: $purble;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            // margin: 25px 10px 0 10px;
+            padding: 30px 0px;
+            // visibility: hidden;
+            // width: 330px;
+    
+            .menuItemLink {
+                font-weight: bold;
+                color: $white;
+                text-decoration: none;
+                font-size: 21px;
+                padding: 20px 0px;
+                
+            }
+    
+            .lineBreak {
+                border-top: 0.5px solid $smothGrey;
+                width: 85%;
+                // display: flex;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin: 20px 20px 20px 20px;
+            }
+        }
+
+    }
+
+    .hMM {
+        width: 40px;
+
+        div {
+          width: 35px;
+          height: 4px;
+          background-color: $smothGrey;
+          margin: 6px 0;
+        }
+    }
+}

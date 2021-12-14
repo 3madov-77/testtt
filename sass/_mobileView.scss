@@ -1,0 +1,275 @@
+body {
+  // max-width: 480px;
+  font-family: "Roboto";
+  z-index: 1;
+  margin: 46px 30px 0 40px;
+  background-color: $white;
+  height: 1200px;
+  color: $white;
+  box-sizing: border-box;
+}
+
+.topnav {
+  background-color: $white;
+  position: relative;
+  height: 50px;
+  .myLinks {
+    visibility: hidden;
+    background-color: $purble;
+    margin: 2px 4px;
+    border-radius: 10px;
+    padding: 30px 0;  
+    a {
+      margin: 16px 45px;
+      border-radius: 25px;
+      color: $white;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      &:hover {
+        background-color: $buttons;
+        color: $white;
+      }
+    }
+    .lineBreak {
+        border-top: 2px solid $smothGrey;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+  }
+  .icon {
+    display: inline-block;
+    margin: -50px 0 0 370px;
+    padding-bottom: 15px;
+    .hMM {
+        margin-top: -20px;
+        width: 40px;
+        div {
+          width: 35px;
+          height: 5px;
+          background-color: $smothGrey;
+          margin: 6px 0;
+        }
+      }
+  }  
+
+}
+
+.section-2 {
+  text-align: center;
+  width: 432px;
+  margin: 0px 10px 10px 8px;
+  padding-top: 450px;
+  overflow-x : hidden;
+  .ill-working {
+    position: relative;
+    width: 600px;
+    margin: -1000px 0 400px 0px;
+    z-index: 1;
+  }
+  .s2-head {
+    color: rgba(0, 0, 0, 0.733);
+    width: 385px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+  }
+  .s2-pargraph {
+    @include pTag();
+    width: 385px
+  }
+  .s2-button {
+    @include GS-button();
+  }
+}
+.section-3 {
+  background-color: $darkPurble;
+  background-image: url("../assets/images/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 300px 143px;
+  width: 399px;
+  position: relative;
+  border-radius: 10px;
+  margin: 100px 0px -300px 5px;
+  z-index: 3;
+  .s3-input {
+    &[type="text"] {
+      margin: 26px 43px 18px 35px;
+      border-radius: 7px;
+      border: hidden;
+      padding: 18px 16px;
+      width: 305px;
+      text-align: left;
+      font-size: 18px;
+    }
+    &[type="submit"] {
+      @include secondButton();
+      margin-top: 15px;
+    }
+  }
+  .warning {
+    display: none;
+    color: $softPink;
+    height: 108px;
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: -108px;
+    font-style: italic;
+    transition: all 0.7s 0s ease;
+  }
+}
+.section-4 {
+  position: relative;
+  text-align: center;
+  background-color: $softSilver;
+  width: 480px;
+  margin: 218px 0px 0px -40px;
+  padding-bottom: 180px;
+  padding-top: 140px;
+  z-index: 2;
+  .c-card {
+    margin: 0 30px 18px 30px;
+    width: 430px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    h3 {
+      color: $dark;
+      padding: 20px 15px;
+      font-size: 20px;
+    }
+    h4 {
+      color: $buttons;
+      padding: 20px 15px;
+      font-size: 20px;
+    }
+    button {
+      @include secondButton();
+      margin: 15px 15px;
+      width: 400px;
+      font-weight: 900;
+      transition: all 0.7s 0s ease;
+    }
+    .LB{
+      border-top: 2px solid $softGrey;
+    }
+  }
+  .s4-head {
+    @include title-h();
+    padding-top: 180px
+  }
+  .s4-pargraph {
+    @include pTag();
+    font-size: 20px;
+    color: $softGrey;
+    letter-spacing: 2px;
+    width: 428px;
+    margin-left: 30px;
+  }
+  .card {
+    background-color: $white;
+    margin: 120px 30px -100px 30px;
+    width: 430px;
+    border-radius: 10px;
+    position: relative;
+
+    .circle {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: $darkPurble;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: 171px;
+      position: absolute;
+      top: -45px;
+    }
+    .card-circle1 {
+      background-image: url("../assets/images/icon-brand-recognition.svg");
+    }
+    .card-circle2 {
+      background-image: url("../assets/images/icon-detailed-records.svg");
+    }
+    .card-circle3 {
+      background-image: url("../assets/images/icon-fully-customizable.svg");
+    }
+    .cardHead {
+      @include title-h();
+      padding-top: 90px;
+      font-size: 25px;
+    }
+    .cardPargraph {
+      @include pTag();
+      font-size: 17px;
+      width: 325px;
+      margin-left: 55px;
+      padding-bottom: 45px;
+    }
+  }
+  .virticalLine {
+    border-left: 10px solid $buttons;
+    height: 180px;
+    margin: -10px 0px -100px 240px;
+  }
+}
+.section-5 {
+  background-color: $darkPurble;
+  background-image: url("../assets/images/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 400px 300px;
+  width: 480px;
+  margin: 0px 0px 0px -40px;
+
+  .s5-head {
+    @include title-h();
+    padding-top: 80px;
+    font-size: 36px;
+    color: $white;
+    text-align: center;
+  }
+  .s5-button {
+    @include GS-button();
+    width: 239px;
+    margin: 0 0 80px 125px;
+  }
+}
+footer {
+  background-color: $black;
+  text-align: center;
+  width: 480px;
+  max-height: 60rem;
+  margin-left: -40px;
+  .f-head {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: $white;
+  }
+  .f-links {
+    h4 {
+      font-size: 17px;
+      font-weight: 500;
+      padding: 40px 25px 20px 25px;
+    }
+    a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: $softGrey;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .socialLogos {
+    padding: 35px 13px;
+  }
+}

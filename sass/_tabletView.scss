@@ -1,0 +1,163 @@
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+      // max-width: 768px;
+      margin: 40px 80px 0 80px;
+    }
+  
+    .topnav{
+      width: 680px;
+      .myLinks{
+        width: 600px;
+        margin-left: 20px;
+        .lineBreak{
+          width: 500px;
+          margin-left: 43px;
+        }
+        a{
+          font-size: 40px;
+          padding: 27px;
+          border-radius: 50px;
+        }
+      }
+      .logo{
+        width: 180px;
+        padding-bottom: 12px;
+      }
+      .icon{
+        margin: 10px 0 0 406px;
+      }
+    }
+  
+    .section-2{
+      width: 680px;
+      margin-top: -30px;
+      .ill-working{
+        padding-bottom: 140px;
+        width: 800px;
+        margin: -1100px 0px 400px 0px;
+      }
+      .s2-head{
+        margin-top: 250px;
+        margin-left: 70px;
+        width: 500px;
+        font-size: 70px;
+      }
+      .s2-pargraph{
+        width: 520px;
+        margin-left: 60px;
+        font-size: 30px;
+      }
+      .s2-button{
+        font-size: 30px;
+        width: 350px;
+      }
+    }
+  
+    .section-3{
+      width: 600px;
+      height: 235px;
+      .s3-input{
+        &[type="text"]{
+          height: 40px;
+          width: 499px;
+        }
+        &[type="submit"]{
+          margin-top: 20px;
+          width: 533px;
+          height: 70px;
+          font-size: 35px;
+        }
+      }
+      .warning{
+        margin-top: -130px;
+        margin-left: 45px;
+      }
+    }
+  
+    .section-4{
+      width: 768px;
+      margin-left: -80px;
+      margin-top: 190px;
+      .c-card{
+        margin: 30px 30px 18px 83px;
+        width: 600px;
+        h3, h4{
+          padding: 35px 30px;
+          font-size: 30px;
+        }
+        button{
+          font-size: 35px;
+          width: 570px;
+        }
+        
+      }
+      .s4-head{
+        font-size: 54px;
+        padding-left: 25px;
+      }
+      .s4-pargraph{
+        width: 600px;
+        font-size: 29px;
+        margin-left: 93px;
+      }
+      .card{
+        width: 600px;
+        margin: 165px 0px -60px 83px;
+        .circle{
+          width: 140px;
+          height: 140px;
+          top: -70px;
+          margin-left: 220px;
+          background-size: 70px;
+        }
+        .cardHead{
+          font-size: 30px;
+        }
+        .cardPargraph{
+          width: 400px;
+          font-size: 20px;
+          margin-left: 96px;
+        }
+      }
+      .virticalLine{
+        border-left: 17px solid $buttons;
+        height: 210px;
+        margin-left: 360px;
+      }
+    }
+  
+    .section-5{
+      width: 768px;
+      margin-left: -80px;
+      .s5-head{
+        font-size: 45px;
+      }
+      .s5-button{
+        font-size: 30px;
+        width: 300px;
+        margin: 0 0 100px 230px;
+      }
+    }
+    
+    footer{
+      width: 768px;
+      margin-left: -80px;
+      margin-top: -1px;
+      .f-head {
+        font-size: 35px;
+      }
+      .f-links {
+        h4 {
+          font-size: 23px;
+        }
+      }
+      a {
+        font-size: 18px;
+      }
+      .socialLogos {
+        width: 40px;
+        padding: 45px 23px;
+      }
+    }
+  }
+  

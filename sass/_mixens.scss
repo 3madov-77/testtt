@@ -1,0 +1,56 @@
+@mixin pTag {
+    color: $tags;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 450;
+    line-height: 30px;
+    margin-top: 16px;
+    letter-spacing: 1.5px;  
+  }
+  
+  @mixin title-h {
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 220px;
+    margin-bottom: 30px;
+  }
+  
+  @mixin GS-button {
+    display: inline-block;
+    padding: 0.8em 1.7em;
+    margin: 36px 0px 36px -40px;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 520;
+    color: $white;
+    background-color: $buttons;
+    text-align: center;
+    border: hidden;
+    width: 240px;
+    font-size: 24px;
+    cursor: pointer;
+    &:hover{
+        background-color: $buttons2;
+    }
+  }
+  
+  @mixin secondButton {
+    margin: 0 43px 26px 35px;
+    padding: 15px 118px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 900;
+    color: $white;
+    background-color: $buttons;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color: $buttons2;
+    }
+  }
